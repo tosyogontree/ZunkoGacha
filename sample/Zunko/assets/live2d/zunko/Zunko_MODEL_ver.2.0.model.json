@@ -1,0 +1,20 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Zunko_MODEL_ver.2.0.moc",
+	"textures":[
+		"Zunko_MODEL_ver.2.0.2048/texture_00.png",
+		"Zunko_MODEL_ver.2.0.2048/texture_01.png"
+	],
+	"motions":{
+		"tap_body":[
+			{"file":"motions/motion_01_MOJIMOJI_ZUNKO.mtn"},
+			{"file":"motions/motion_02_Dancing_ZUNKO.mtn"}
+		],
+		"idle":
+		[
+			{"file":"motions/idle_00.mtn" ,"fade_in":2000, "fade_out":2000},
+            {"file":"motions/idle_01.mtn" ,"fade_in":2000, "fade_out":2000},
+			{"file":"motions/idle_02.mtn" ,"fade_in":2000, "fade_out":2000}
+		]
+	}
+}
